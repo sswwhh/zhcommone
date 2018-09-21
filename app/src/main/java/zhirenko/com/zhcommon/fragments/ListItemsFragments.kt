@@ -35,7 +35,7 @@ class ListItemsFragments : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupUI()
-        setupViewModel("")
+        setupList()
     }
 
     private fun setupUI() {
@@ -55,7 +55,7 @@ class ListItemsFragments : Fragment() {
     }
 
 
-    private fun setupViewModel(productId: String) {
+    private fun setupList() {
         val list : List<Item> = listOf(Notice(Date(), "one"),
                 Notice(Date(), "two"),
                 Move("fromPlace", "toPlace", 42F),
@@ -65,8 +65,6 @@ class ListItemsFragments : Fragment() {
                 Move("fromPlace2", "toPlace2", 43F))
         val sections = SectionMapper().mapToSections(list)
         (rv_list.adapter as ListItemsAdapter).submitList(sections)
-
-
     }
 
 }
