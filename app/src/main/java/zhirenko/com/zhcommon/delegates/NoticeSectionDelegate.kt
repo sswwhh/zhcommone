@@ -13,7 +13,7 @@ import zhirenko.com.zhcommon.sections.NoticeSection
  * Delegate class receives the responsibility of creating the section in RV
  * This section includes view, data and its representation
  */
-class NoticeSectionDelegate : SimpleDelegate<ListItemSectionData>() {
+class NoticeSectionDelegate(private val listener: (ListItemSectionData) -> Unit) : SimpleDelegate<ListItemSectionData>() {
     override fun ViewGroup.view(): View = inflateItem(R.layout.item_notice)
 
     override fun forViewType(item: ListItemSectionData): Boolean = item is NoticeSection
@@ -23,5 +23,9 @@ class NoticeSectionDelegate : SimpleDelegate<ListItemSectionData>() {
 
         tv_date.text = noticeSection.flightDate
         tv_gate.text = noticeSection.gate
+
+        ll_main.setOnClickListener {
+            listener(noticeSection)
+        }
     }
 }
