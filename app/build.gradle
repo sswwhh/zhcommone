@@ -51,6 +51,8 @@ dependencies {
     implementation "com.android.support:design:$supportVersion"
     implementation "com.android.support.constraint:constraint-layout:$constraintVersion"
 
+    implementation 'com.hannesdorfmann:adapterdelegates3:3.0.1'
+
     //retrofit
     implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
     implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion")

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/item_notice_main_padding"
+    android:paddingRight="@dimen/item_notice_main_padding"
+    android:paddingTop="@dimen/item_notice_main_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_notice_about_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Flight date"
+        android:textSize="@dimen/item_notice_text_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_notice_gate_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_gate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Gate #3" />
+
+    <View
+        android:layout_marginTop="@dimen/item_notice_line_margin_top"
+        android:background="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_notice_line_height" />
+</LinearLayout>

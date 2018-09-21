@@ -19,7 +19,7 @@ class App : MultiDexApplication() {
 
 
     private lateinit var instance: Context
-    private lateinit var appComponent: AppComponent
+    lateinit var appComponent: AppComponent
 
 
     override fun attachBaseContext(context: Context) {

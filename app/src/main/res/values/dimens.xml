@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_notice_line_margin_top">4dp</dimen>
+    <dimen name="item_notice_line_height">1dp</dimen>
+    <dimen name="item_notice_text_size">18sp</dimen>
+    <dimen name="item_notice_main_padding">20dp</dimen>
+
+    <dimen name="item_move_line_margin_top">4dp</dimen>
+    <dimen name="item_move_line_height">1dp</dimen>
+    <dimen name="item_move_text_size">18sp</dimen>
+    <dimen name="item_move_main_padding">20dp</dimen>
+
+    <dimen name="item_event_line_margin_top">4dp</dimen>
+    <dimen name="item_event_line_height">1dp</dimen>
+    <dimen name="item_event_text_size">18sp</dimen>
+    <dimen name="item_event_main_padding">20dp</dimen>
+</resources>

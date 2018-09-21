@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/item_move_main_padding"
+    android:paddingRight="@dimen/item_move_main_padding"
+    android:paddingTop="@dimen/item_move_main_padding">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_move_about_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_move_from"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="From" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_move_to"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="To" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_move_estimate"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_estimate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Est" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_event_line_height"
+        android:layout_marginTop="@dimen/item_event_line_margin_top"
+        android:background="@color/grey" />
+
+</LinearLayout>

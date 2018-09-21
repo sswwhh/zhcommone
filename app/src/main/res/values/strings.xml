@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">zhcommon</string>
+    <string name="item_notice_about_text">Ваш рейс:</string>
+    <string name="item_notice_gate_text">Гейт:</string>
+
+    <string name="item_move_about_text">Поездка</string>
+    <string name="item_move_from">Откуда</string>
+    <string name="item_move_to">Куда</string>
+    <string name="item_move_estimate">Займет</string>
+
+    <string name="item_event_about_text">Событие</string>
+    <string name="item_event_start_text">Начало</string>
+    <string name="item_event_end_text">Окончание</string>
+    <string name="item_event_duration_text">Длительность</string>
 </resources>
